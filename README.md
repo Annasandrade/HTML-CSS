@@ -3,4 +3,4 @@
 
  Estou aprendendo a criar site e agora vou gerenciar meus reposotórios!
 
-<a href="file:///C:/Users/RIO/Documents/Estudos/HTML-CSS/Exercicios/ex022/index.html">Executar o Exercicio 022</a>
+<a href="https://annasandrade.github.io/HTML-CSS/Estudos/HTML-CSS/Exercicios/ex022/index.html">Executar o Exercicio 022</a>
