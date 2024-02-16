@@ -14,19 +14,29 @@ table{
     width: 500px;
 }
 
+tbody > tr:nth-child(2n) {
+    background-color: rgb(186, 5, 5);
+}
+caption{
+    font-size: 1em;
+    font-weight: bold;
+    background-color: rgb(179, 163, 163);
+    padding: 10px;
+}
 td, th{
     border: 1px solid black;
     padding: 5px;
 }
 
 thead{
-    background-color: grey;
-    color:white
+    background-color: rgb(149, 15, 15);
+    color:white;
 }
 
 td.num{
     text-align: right;
 }
+
 tfoot{
     background-color: grey;
     color:white
@@ -47,9 +57,12 @@ tfoot{
     
     -->
 <table>
+    <caption>
+        Lista de unidades federativas do Brasil por população</caption>
 <thead>
-<th>Estado</th>
-<th>População 2022</th>
+    <th scope="col" style="width: 200px;">Estado</th>
+<th scope="col" style="width: 50px;">População</th>
+
 </thead>
 
 <tbody>
@@ -165,8 +178,8 @@ tfoot{
 
 <tfoot>
 <tr>
-    <th>Total de Habitantes</th>
-    <td>0000</td>
+    <th scope="row">Total de Habitantes</th>
+    <td class="num">203 062 512</td>
 </tr>
 
 </tfoot>
