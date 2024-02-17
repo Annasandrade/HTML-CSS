@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios de Tabela</title>
+<style>
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table{
+    border-collapse: collapse;
+    width: 400px;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.destaque{
+    background-color: bl;
+}
+
+col.cnome{
+    background-color: blue;
+}
+
+col.cgrupo{
+    background-color: aqua;
+}
+
+</style>
+</head>
+<body>
+
+    <h1> Exercicios de Tabelas</h1>
+    <table>
+<colgroup>
+<col class="cnome"> 
+<col class="cgrupo" span="3">
+<col class="cidade">
+<col class="prof">
+
+</colgroup>
+    
+        <Caption>Cadastro</Caption>
+ <thead>
+     <tr>
+        
+     <th scope="col">Nome</th>
+     <th scope="col">Sexo</th>
+     <th scope="col">Idade</th>
+     <th scope="col">Profissão</th>
+          </tr>
+ </thead> 
+<tbody>
+<tr>
+<td>Adriane Andrade</td>
+<td>F</td>
+<td>50</td>
+<td>Cuidadora</td>
+
+</tr>
+<tr>
+    <td>Ana Paula Andrade</td>
+    <td>F</td>
+    <td>25</td>
+    <td>Esrudante</td>
+    
+    </tr>
+    <tr>
+        <td class="destaque">Anna Carolina Andrade</td>
+        <td>F</td>
+        <td>29</td>
+        <td>TI</td>
+        
+    </tr>
+    <tr>
+        <td>Dayane Andrade</td>
+        <td>F</td>
+        <td>27</td>
+        <td>Auxiliar</td>
+        
+    </tr>
+        <tr>
+            <td>Danielle Andrade</td>
+            <td>F</td>
+            <td>31</td>
+            <td>Atendente</td>
+            
+    </tr>
+
+</tbody>
+    
+    
+    </table>
+</body>
+</html>
