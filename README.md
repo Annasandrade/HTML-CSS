@@ -1,7 +1,7 @@
 # HTML-CSS
  Curso de HTML e CSS3
 
- Estou aprendendo a criar site e agora vou gerenciar meus reposotórios!
+ Estou aprendendo a criar site e agora vou gerenciar meus repositórios!
 
 <a href="https://annasandrade.github.io/HTML-CSS/Exercicios/ex022/">Executar o Exercicio 022</a>
 
