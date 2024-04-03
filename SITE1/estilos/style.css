@@ -16,6 +16,7 @@ header{
        background-color: #BDB0FA;
        text-align: center;
        padding: 50px;
+       box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.143);
 
 }
 
@@ -33,7 +34,7 @@ p{
 nav{
    display: flex;
    justify-content: end;
-    
+       
 }
 
 a{
@@ -48,12 +49,14 @@ padding-top: 5px;
 border-radius: 0px 0px 10px 10px;
 
 
+
 }
 
 a:hover{
    background-color:#BDB0FA;
    transition-duration: 1.s;
    padding-top: 6px;
+   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.143);
 
    
 }
