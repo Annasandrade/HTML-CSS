@@ -13,7 +13,7 @@ body{
 }
 
 header{
-       background-color: aquamarine;
+       background-color: #BDB0FA;
        text-align: center;
        padding: 50px;
 
@@ -51,7 +51,7 @@ border-radius: 0px 0px 10px 10px;
 }
 
 a:hover{
-   background-color: aquamarine;
+   background-color:#BDB0FA;
    transition-duration: 1.s;
    padding-top: 6px;
 
