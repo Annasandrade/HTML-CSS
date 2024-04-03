@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    background-color: white;
+}
+
+header{
+       background-color: aquamarine;
+       text-align: center;
+       padding: 50px;
+
+}
+
+h1{
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+p{
+    padding: 10px;
+    font-family: "Oswald", sans-serif;
+}
+
+nav{
+   display: flex;
+   justify-content: end;
+    
+}
+
+a{
+
+text-decoration: none;
+color: black;
+margin-right: 20px;
+width: 120px;
+text-align: center;
+padding-bottom: 15px;
+padding-top: 5px;
+border-radius: 0px 0px 10px 10px;
+
+
+}
+
+a:hover{
+   background-color: aquamarine;
+   transition-duration: 1.s;
+   padding-top: 6px;
+
+   
+}
